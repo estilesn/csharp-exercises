@@ -2,7 +2,7 @@ using Domain;
 
 namespace Exercises;
 
-class PlalindromoExercise : IExercise
+class PalindromoExercise : IExercise
 {
     public void Execute(){
         Console.WriteLine("Ingresa la palabra:");

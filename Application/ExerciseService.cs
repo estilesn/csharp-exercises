@@ -9,8 +9,12 @@ public class ExerciseService{
 
         switch(option){
             case 1:
-                exercise = new PlalindromoExercise();
+                exercise = new PalindromoExercise();
                 break;
+            case 2:
+                exercise = new CalculadoraEdadExercise();
+                break;
+            
             default:
                 exercise = null;
                 break;

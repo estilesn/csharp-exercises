@@ -9,6 +9,7 @@ public class Menu{
             Console.Clear();
             Console.WriteLine("Elige el ejercicio:");
             Console.WriteLine("1.- Palindromo");
+            Console.WriteLine("2.- Calcular edad");
             Console.WriteLine("0.- Salir");
             int option = Convert.ToInt32(Console.ReadLine());
             
