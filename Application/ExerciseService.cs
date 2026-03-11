@@ -14,7 +14,18 @@ public class ExerciseService{
             case 2:
                 exercise = new CalculadoraEdadExercise();
                 break;
-            
+            case 3:
+                exercise = new ContraseñaExercise();
+                break;
+            case 4:
+                exercise = new AhorcadoExercise();
+                break;
+            case 5:
+                exercise = new FibonacciExercise();
+                break;
+            case 6:
+                exercise = new CrudExercise();
+                break;
             default:
                 exercise = null;
                 break;
